@@ -1,8 +1,8 @@
 :root {
-    --main-color:black;
+    --main-color:rgb(255, 255, 255);
     --color-footer:#5093d1;
     --color-header:#65aff5;
-    --color-border-img:#000000; 
+    --color-border-img:#00000086; 
 }
 body{
     margin: 0;
@@ -16,13 +16,13 @@ header {
 }
 header .img-nav{
     margin-left: 30px;
-    width: 130px;
+    width: 200px;
     height: 130px;
     color: var(--color-header);
     border-width: 3px;
     border-style: solid;
     border-color: var(--color-border-img);
-    border-radius: 50%;
+    border-radius: 200%;
 }
 
 footer {
