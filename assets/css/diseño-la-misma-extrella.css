@@ -1,8 +1,9 @@
 :root {
-    --main-color:rgb(255, 255, 255);
-    --color-footer:#5093d1;
-    --color-header:#65aff5;
-    --color-border-img:#00000086; 
+    --main-color:black;
+    --color-footer:#D35400;
+    --color-header:#FCCF31;
+    --color-border-img:#F7DC6F; 
+    --font-family:'Open Sans', sans-serif;
 }
 body{
     margin: 0;
@@ -16,24 +17,36 @@ header {
 }
 header .img-nav{
     margin-left: 30px;
-    width: 200px;
+    width: 130px;
     height: 130px;
     color: var(--color-header);
     border-width: 3px;
     border-style: solid;
     border-color: var(--color-border-img);
-    border-radius: 200%;
+    border-radius: 50%;
 }
-form {
-    margin-top: 0px;
-    width: auto;
-    height: auto;
-    margin-left: 800px;
-    margin-right: 300px;
-
+main section {
+    display: flex;
+    align-items: flex-start;
+    
 }
-
-form input{
+main section .descripicion{
+    font-size: 18px;
+}
+main section .descripicion p{
+    margin-top: 50px;
+}
+main section .descripicion form{
+    margin-top: 40px;
+    width:340px ;
+    height:300px ;
+    margin-left: 300px ;
+}
+main section .descripicion form label{
+    font-weight: bold;
+    font-size: 20px;
+}
+main section .descripicion form input{
     width: 100%;
     font-family: var(--font-family);
     font-size: 18px;
@@ -43,30 +56,31 @@ form input{
     border-width: 2px;
     border-style: solid;
 }
-form button{
+main section .descripicion form button{
     margin-top: 10px;
     margin-left: 10px;
     border: none;
     outline: none;
     height: 40px;
     color: white;
-    background: rgb(7, 50, 168);
+    background: black;
     font-size: 18px;
     border-radius: 15px;
-    float: left;
+    float: right;
     cursor: pointer;
     font-family:var(--font-family);
 }
-form button:hover{
+main section .descripicion form button:hover{
     cursor: pointer;
-    background-color: rgb(247, 31, 31);
+    background-color: gray;
 }
+
 footer {
     background-color: var(--color-footer);
-    color:#000000;
+    color:#ffffff;
     width: 100%;
     height: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 footer div {
     text-align: center;
