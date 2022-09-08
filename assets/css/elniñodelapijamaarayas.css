@@ -1,8 +1,8 @@
 :root {
     --main-color:black;
-    --color-footer:#54a3ad;
+    --color-footer:#D35400;
     --color-header:#54a3ad;
-    --color-border-img:#000000; 
+    --color-border-img:#2E86C1; 
     --font-family:'Open Sans', sans-serif;
 }
 body{
@@ -17,18 +17,21 @@ header {
 }
 header .img-nav{
     margin-left: 30px;
-    width: 200px;
+    width: 130px;
     height: 130px;
     color: var(--color-header);
     border-width: 3px;
     border-style: solid;
     border-color: var(--color-border-img);
-    border-radius: 30%;
+    border-radius: 50%;
 }
 main section {
     display: flex;
     align-items: flex-start;
     
+}
+main section img {
+    margin: 10px 10px 10px 10px;
 }
 main section .descripicion{
     font-size: 18px;
@@ -63,7 +66,7 @@ main section .descripicion form button{
     outline: none;
     height: 40px;
     color: white;
-    background: rgb(11, 142, 202);
+    background: black;
     font-size: 18px;
     border-radius: 15px;
     float: right;
